@@ -1,25 +1,29 @@
 {
-  "name": "gulp-tp-ng-sort",
-  "version": "0.1.4",
-  "author": {
-    "name": "Ryan Crosser",
-    "email": "ryankcrosser@gmail.com"
-  },
-  "license": "MIT",
-  "description": "An opinionated dependency sorter for AngularJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
-  },
-  "keywords": [
-    "opinionated",
-    "angular",
-    "sort"
-  ],
-  "dependencies": {
-    "gulp-util": "3.0.8",
-    "ng-dependencies": "0.8.1",
-    "through2": "2.0.3",
-    "toposort": "1.0.3"
-  }
+    "name": "gulp-tp-ng-sort",
+    "version": "0.1.4",
+    "author": {
+        "name": "Ryan Crosser",
+        "email": "ryankcrosser@gmail.com"
+    },
+    "license": "MIT",
+    "description": "An opinionated dependency sorter for AngularJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ryancrosser/gulp-tp-ng-sort"
+    },
+    "keywords": [
+        "opinionated",
+        "angular",
+        "sort"
+    ],
+    "dependencies": {
+        "gulp-util": "3.0.8",
+        "ng-dependencies": "0.8.1",
+        "through2": "2.0.3",
+        "toposort": "1.0.3"
+    }
 }
